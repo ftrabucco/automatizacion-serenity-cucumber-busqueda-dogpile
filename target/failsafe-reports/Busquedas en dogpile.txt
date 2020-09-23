@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Busquedas en dogpile
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 80.964 s <<< FAILURE! - in Busquedas en dogpile
+Verificar que los resultados con texto relevante al titulo(Busquedas en dogpile)  Time elapsed: 20.423 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class, 'web-bing__title') and contains(.,'Definición de Rock Nacional')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PCCORAR0313', ip: '172.28.40.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\FTRABU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 594849b3266cc226aa9f75bd24620d33
+*** Element info: {Using=xpath, value=//a[contains(@class, 'web-bing__title') and contains(.,'Definición de Rock Nacional')]}
+

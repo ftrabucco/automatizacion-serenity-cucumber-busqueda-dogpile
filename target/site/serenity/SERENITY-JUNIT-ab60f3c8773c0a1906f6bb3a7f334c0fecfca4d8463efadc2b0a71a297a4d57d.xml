@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Busquedas en dogpile" skipped="0" tests="3" time="56.48" timestamp="2020-09-22 10:13:18"><testcase name="Buscar resultados relevantes"/><testcase name="Verificar que los resultados con texto relevante al titulo"/></testsuite>
